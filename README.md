@@ -1,5 +1,7 @@
 # fordd
 
+flutter Beta 版本
+
 A new Flutter project.
 
 ## Getting Started
