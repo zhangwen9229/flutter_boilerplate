@@ -8,7 +8,7 @@ abstract class BaseState<Page extends BasePage> extends State<Page> {
   String screenName();
 }
 
-mixin BasicPage<Page extends BasePage> on BaseState<Page> {
+mixin BasicMixinPage<Page extends BasePage> on BaseState<Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

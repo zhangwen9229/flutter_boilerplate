@@ -21,7 +21,7 @@ class Home extends BasePage {
   _HomeState createState() => _HomeState();
 }
 
-class _HomeState extends BaseState<Home> with BasicPage {
+class _HomeState extends BaseState<Home> with BasicMixinPage {
   @override
   String screenName() => "测试DD";
 
